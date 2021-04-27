@@ -1,0 +1,24 @@
+img {
+  float: left;
+  padding-right: 10px;
+}
+
+div {
+  border: 1px solid black;
+  background-color: red;
+  padding: 10px;
+}
+
+.clearfix {
+  overflow: auto;
+  margin-left: 400px;
+  margin-right: 400px;
+}
+
+div.fixed {
+  border: 3px solid black;
+  top: 0;
+  left: 25%;
+  width: 50%;
+  position: fixed;
+}
